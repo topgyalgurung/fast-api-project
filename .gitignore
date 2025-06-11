@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*  # optional: ignore env files for different stages
+
+# FastAPI/Starlette logs or local artifacts
+*.log
+*.sqlite3
+instance/
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest or testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy, pylint, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Local development tools
+*.db
